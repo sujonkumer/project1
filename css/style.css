@@ -2601,3 +2601,140 @@ hr {
 }
 
 /* new added css end */
+
+
+/* Goal, mission , vission css start */
+
+@import  url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700");
+
+h1.white {
+   font-family: 'Montserrat', sans-serif;
+   margin: 30px 20px 50px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.thirdserviceBox {
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.thirdserviceBox .service-icon {
+   color: #fff !important;
+   background: #fff;
+   font-size: 45px;
+   line-height: 100px;
+   width: 100px;
+   height: 100px;
+   margin: 0 auto 30px;
+   border-radius: 50%;
+   box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
+   position: relative;
+   z-index: 1;
+   clip-path: none;
+
+   -webkit-text-stroke: 1px #ffffff;
+   -webkit-text-fill-color: #fff;
+}
+
+.thirdserviceBox .service-icon:before,
+.thirdserviceBox .service-icon:after {
+   content: "";
+   background: linear-gradient(to right, #F09119 50%, transparent 50%);
+   border-radius: 50%;
+   position: absolute;
+   top: -10px;
+   left: -10px;
+   right: -10px;
+   bottom: -10px;
+   z-index: -1;
+   transition: all ease 0.8s;
+}
+
+.thirdserviceBox:hover .service-icon:before,
+.thirdserviceBox:hover .service-icon:after {
+   transform: rotateZ(180deg);
+}
+
+.thirdserviceBox:hover .service-icon {
+   box-shadow: -5px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.thirdserviceBox .service-icon:after {
+   background: #F09119;
+   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
+   top: 10px;
+   left: 10px;
+   right: 10px;
+   bottom: 10px;
+}
+
+.thirdserviceBox {
+   border: 1px solid #e5e4e4;
+   padding: 40px;
+   border-radius: 20px;
+   background: #f9f9f9;
+   position: relative;
+   z-index: 1;
+}
+
+
+.thirdserviceBox .title {
+   color: #F1921A;
+   font-size: 16px;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin: 0 0 10px;
+}
+
+.thirdserviceBox .description {
+   color: #777;
+   font-size: 15px;
+   line-height: 20px;
+   letter-spacing: 0.5px;
+   margin: 0;
+}
+
+.thirdserviceBox.red .service-icon:before {
+   background: linear-gradient(to right, #E34A3A 50%, transparent 50%);
+}
+
+.thirdserviceBox.red .service-icon:after {
+   background: #E34A3A;
+}
+
+.thirdserviceBox.red .title {
+   color: #E34A3A;
+}
+
+.thirdserviceBox.blue .service-icon:before {
+   background: linear-gradient(to right, #009CB5 50%, transparent 50%);
+}
+
+.thirdserviceBox.blue .service-icon:after {
+   background: #009CB5;
+}
+
+.thirdserviceBox.blue .title {
+   color: #009CB5;
+}
+
+.thirdserviceBox.green .service-icon:before {
+   background: linear-gradient(to right, #A1C52D 50%, transparent 50%);
+}
+
+.thirdserviceBox.green .service-icon:after {
+   background: #A1C52D;
+}
+
+.thirdserviceBox.green .title {
+   color: #A1C52D;
+}
+
+@media  only screen and (max-width:990px) {
+   .thirdserviceBox {
+       margin: 0 0 30px;
+   }
+}
+/* Goal, mission , vission css end */
